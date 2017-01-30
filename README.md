@@ -7,7 +7,9 @@ A Chrome extension to get the AlbumKey from SmugMug gallery pages (your own or o
 This extension runs on all URLs but is very lightweight; it just runs a single [document.documentElement.outerHTML()](https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML)
 It needs to run on all URLs because of custom SmugMug domains, not just smugmug.com subdomains.
 
-_If_ it detects you are on a SmugMug gallery page, it will display an _intrusive_ window.prompt pop-up with the AlbumKey already displayed and selected; you just need to Copy (keyboard shortcut or mouse clicking) and/or dismiss the message.
+_If_ it detects you are on a SmugMug gallery page, it will display an _intrusive_ window.prompt pop-up with the AlbumKey already displayed and selected; you just need to Copy (keyboard shortcut or mouse clicking) and/or dismiss the message, like this:
+
+![pop-up message if viewing a SmugMug album](https://cloud.githubusercontent.com/assets/1812179/22433553/6108a034-e6de-11e6-99a7-45ba33ce907c.png)
 
 You will probably want to enable it only when actually looking for the album key and leave it disabled all other times.
 
